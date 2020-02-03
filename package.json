@@ -1,0 +1,38 @@
+{
+  "name": "noggin",
+  "version": "1.0.0",
+  "description": "A simple MVC Back-end frameword that based on Koa.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-zeus/noggin.git"
+  },
+  "keywords": [
+    "noggin-core",
+    "noggin"
+  ],
+  "author": "kevin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin-zeus/noggin/issues"
+  },
+  "homepage": "https://github.com/kevin-zeus/noggin#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "is-class": "^0.0.9",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "markdown-it": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
